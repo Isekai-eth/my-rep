@@ -12,7 +12,7 @@ def test_weight_based_dose():
 
 
 def test_cockcroft_gault():
-    assert cockcroft_gault(26, 80, 1.02) == pytest.approx(143.79, rel=1e-3)
+    assert cockcroft_gault(26, 80, 1.02) == pytest.approx(124.18, rel=1e-3)
 
 
 @pytest.mark.parametrize(
